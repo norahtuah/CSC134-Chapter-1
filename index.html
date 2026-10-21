@@ -9,7 +9,7 @@
 header{background:linear-gradient(135deg,var(--p),var(--p2));color:white;padding:28px 18px}
 .wrap{max-width:1050px;margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
 h1{margin:0;font-size:clamp(1.6rem,4vw,2.7rem)} .sub{opacity:.9;margin-top:6px}.badge{background:#ffffff22;border:1px solid #ffffff55;padding:8px 12px;border-radius:999px}
-nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px auto}.navbtn{border:0;background:white;padding:11px 14px;border-radius:12px;cursor:pointer;box-shadow:0 2px 8px #00000012;font-weight:650}.navbtn.active{background:var(--p);color:white}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px auto}.navbtn{border:0;background:white;padding:11px 14px;border-radius:12px;cursor:pointer;box-shadow:0 2px 8px #00000012;font-weight:650}.navbtn.active{background:var(--p);color:white} .portal-link{display:inline-flex;align-items:center;text-decoration:none;color:#3730a3;border:1px solid #c7d2fe}.portal-link:hover,.portal-link:focus-visible{background:#eef2ff;outline-offset:3px}
 main{padding:0 18px 40px}.screen{display:none}.screen.active{display:block}.card{background:var(--card);border-radius:18px;padding:20px;margin:14px 0;box-shadow:0 5px 20px #17203312}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.topic{cursor:pointer;border:2px solid transparent;transition:.15s}.topic:hover{transform:translateY(-2px);border-color:#c7d2fe}
 .icon{font-size:2rem}.small{color:var(--muted);font-size:.94rem}.progress{height:12px;background:#e5e7eb;border-radius:999px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--p),#06b6d4);width:0}
@@ -33,6 +33,7 @@ footer{text-align:center;color:var(--muted);padding:25px}.heroBtns{display:flex;
 <main class="wrap">
 <nav>
 <button class="navbtn active" data-screen="home">🏠 Home</button>
+<a class="navbtn portal-link" href="https://norahtuah.github.io/CIPLearn-CSC134/" aria-label="Back to CIPLearn main portal">↩ Back to CIPLearn Portal</a>
 <button class="navbtn" data-screen="learn">📘 Learn</button>
 <button class="navbtn" data-screen="practice">🧠 Practice</button>
 <button class="navbtn" data-screen="classify">🎮 Classify</button>
